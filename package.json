@@ -1,0 +1,33 @@
+{
+  "name": "cellulys",
+  "version": "1.0.0",
+  "description": "agar.io alternative",
+  "homepage": "https://github.com/code-nuage/cellulys#readme",
+  "bugs": {
+    "url": "https://github.com/code-nuage/cellulys/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-nuage/cellulys.git"
+  },
+  "license": "MIT",
+  "author": "DarckWax, Rafus455, code-nuage",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/app.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.2",
+    "dotenv": "^18.0.1",
+    "eslint": "^10.11.0",
+    "express": "^5.2.1",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.14",
+    "npm": "^12.0.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
